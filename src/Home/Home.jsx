@@ -10,9 +10,10 @@ function Home1() {
     const [message, setmessage] = useState(false);
 
     const handleLogin = () => {
+        e.preventDefault();
         if (username === "user" && password === "password") {
             localStorage.setItem("username", username);
-            setloading(true);
+            setTimeout(() => setloading(true), 7000);
         }else {
             setmessage(true);
         }
