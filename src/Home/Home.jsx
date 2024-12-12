@@ -27,7 +27,7 @@ function Home1() {
             ) : (
                 <>
                  <h2>Login Page</h2>
-                 <p>Invalid Username and Password</p>
+                 <p>Invalid username or password</p>
                 </>
                
             )}
