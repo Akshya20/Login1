@@ -13,7 +13,7 @@ function Home1() {
         e.preventDefault();
         if (username === "user" && password === "password") {
             localStorage.setItem("username", username);
-            setTimeout(() => setloading(true), 7000);
+            setloading(true);
         }else {
             setmessage(true);
         }
