@@ -53,7 +53,7 @@ function Home1() {
 
                 </>
             ) : (
-                <p>Welcome, {localStorage.getItem("username")}!</p>
+                <p>Welcome, {localStorage.getItem("username")}</p>
 
             )}
         </div>
