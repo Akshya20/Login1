@@ -9,7 +9,7 @@ function Home1() {
     const [loading, setloading] = useState(false);
     const [message, setmessage] = useState(false);
 
-    const handleLogin = () => {
+    const handleLogin = (e) => {
         e.preventDefault();
         if (username === "user" && password === "password") {
             localStorage.setItem("username", username);
